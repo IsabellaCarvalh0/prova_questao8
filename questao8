@@ -1,0 +1,23 @@
+programa
+{
+  funcao inicio
+  {
+    cadeia time1, time2
+    inteiro gols_1, gols_2
+    escreva("Digite o nome do 1º time: ")
+    leia (time1)
+    escreva("Digite o nome do 2º time: ")
+    leia (time2)
+    escreva("Escreva quantos gols o ", time1, " fez no campeonato: ")
+    leia (gols_1)
+    escreva("Escreva quantos gols o ", time2, " fez no campeonato: ")
+    leia (gols_2)
+
+    se gols_1==gols_2
+      escreva("empate")
+    se gols_1>gols_2
+      escreva("Ganhador: ", time1)
+    se gols_1<gols_2
+      escreva("Ganhador: ", time2)
+  }
+}
